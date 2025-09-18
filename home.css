@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url("gf.PNG") no-repeat center center fixed;
+  background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 30px 15px;
+}
+
+header {
+  background: #333;
+  color: white;
+  padding: 3%;
+  width: 100%;        /* Cover the full width */
+  margin: 0;          /* Remove extra spacing */
+  box-sizing: border-box; /* Ensure padding doesn’t shrink width */
+}
+p1{
+    color: #080a08; /* Lighter Green */
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.8em;
+            letter-spacing: -0.5px;
+}
+p2{
+    color:  #080a08; /* Lighter Green */
+            font-size: 2.2em;
+            margin-top: 40px;
+            border-bottom: 3px solid #e0f2e0;
+            padding-bottom: 12px;
+            margin-bottom: 25px;
+}
+p3{
+    color: #9c1f79; /* Lighter Green */
+            font-size: 1.6em;
+            margin-top: 25px;
+            margin-bottom: 15px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px;
+  background: url('restaurant.jpg') center/cover no-repeat;
+  color: white;
+}
+
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 1em;
+  background: #222;
+  color: white;
+}
